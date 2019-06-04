@@ -1,18 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Monkees</title>
 </head>
 
 <body>
+  <!===index-page======>
+
+  <header id="home">
+    <div class="landing-page">
+      <div class="pos-f-t fixed-top">
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        </nav>
+
+        <div class="collapse navbar-collapse col-md-3" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <nav class="navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#home"><i class="fas fa-home" aria-hidden="true"></i><span class="menu-item">Home</span></a>
+            </nav>
+            <nav class="navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#listen"><i class="fas fa-headphones-alt" aria-hidden="true"></i><span class="menu-item">Listen</span></a>
+            </nav>
+            <nav class="navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#watch"><i class="fas fa-video" aria-hidden="true"></i><span class="menu-item">Watch</span></a>
+            </nav>
+            <nav class="navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#"><i class="fas fa-user" aria-hidden="true"></i><span class="menu-item">About us</span></a>
+            </nav>
+            <nav class="navbar navbar-dark bg-dark">
+              <a class="navbar-brand" href="#"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span class="menu-item">Book us</span></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="landing-image">
+      <div class="row bg-color-header-text">
+        <h1 class="jumbotron-header">The Monkees</h1>
+        <h2 class="jumbotron-text">the most popular rockband of the sixties</h2>
+      </div>
+     
+    </div>
+    </div>
+  </header>
+
+  <!===listen-page======>
+  <section id="listen">
+    <div class="container-fluid listen-image">
+      <div class="row col-xs-12 col-md-4 bg-color-listen-text">
+        <h3 class="listen-header"><i class="fas fa-headphones-alt" aria-hidden="true"></i>Listen</h3>
+      </div>
+      <div class="container-fluid">
+        <div class="card-columns">
+          <div class="card bg-dark">
+            <h4 class="card-title">Steppinstone</h4>
+            <img class="card-img-top" src="assets/images/listenpage/steppinstone.jpg" alt="image i am not your steppinstone">
+            <div class="card-body">
+              <audio src="assets/audio/steppinstone.mp3" type="audio/mpeg" class="audio" controls></audio>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <h4 class="card-title">I'm a Believer</h4>
+            <img class="card-img-top" src="assets/images/listenpage/believer.jpg" alt="image i'm a believer">
+            <div class="card-body">
+              <audio src="assets/audio/imabeliever.mp3" type="audio/mpeg" class="audio" controls></audio>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <h4 class="card-title">Daydream Believer</h4>
+            <img class="card-img-top" src="assets/images/listenpage/daydream.jpg" alt="image daydream believer">
+            <div class="card-body">
+              <audio src="assets/audio/daydreambeliever.mp3" type="audio/mpeg" class="audio" controls></audio>
+            </div>
+          </div>
+          <div class="card bg-dark">
+            <h4 class="card-title">Last train to Clarksville</h4>
+            <img class="card-img-top" src="assets/images/listenpage/clarksville.jpg" alt="image last train to clarksville">
+            <div class="card-body">
+              <audio src="assets/audio/clarksville.mp3" type="audio/mpeg" class="audio" controls></audio>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!===watch-page======>
+  <section>
+    <div class="watch-image" id="watch">
+      <div class="row col-xs-12 col-md-4 bg-color-watch-text">
+        <h3 class="watch-header"><i class="fas fa-video" aria-hidden="true"></i>Watch</h3>
+      </div>
+      <div class="card-deck">
+        <div class="card bg-basic">
+          <h4 class="card-title">Believe</h4>
+          <div class="card-body">
+            <video class="video" controls poster="assets/images/watchpage/logo.png">
+                <source src="assets/video/believe.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+        </div>
+        <div class="card bg-basic">
+          <h4 class="card-title">video</h4>
+          <div class="card-body">
+            <video class="video" controls><source src="assets/video/believe.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!=====about us=====>
+  </section>
+    <div class="about-image" id="about">
+      <div class="row col-xs-12 col-md-4 bg-color-about-text">
+        <h3 class="about-header"><i class="fas fa-user" aria-hidden="true"></i>About</h3>
+      </div>
+    </div>  
+  
+  <section>
     
+  </section>
+
+  <footer></footer>
+
+
 </body>
 
-<footer>
-    
-</footer>
+
 </html>

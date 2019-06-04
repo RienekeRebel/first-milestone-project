@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Yesteryear:100,200,300,400,500,600,700');
+/*
+font-family: 'Yesteryear', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+
+
+body, header, section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: calc(16px + 0.5vw);
+}
+
+h1 {
+    font-size: calc(60px + 1.5vw);
+}
+
+h2 {
+    font-size: calc(20px + 0.5vw);
+}
+
+h3 {
+    font-size: calc(32px + 1vw);
+}
+h4 {
+    font-size: calc(18px + 0.5vw)
+}
+
+
+/*--------------------------------------------Header*/
+.container-fluid-landing-page{
+    padding-left:0;
+    padding-right:0;
+    margin: 0;
+}
+
+.bg-color-header-text {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    top: 50%;
+    margin: 0;
+    background-color: transparent;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+.bg-header-image{
+    background-image: url("../images/monkees.jpg");
+    width: 100%;      
+    height: 100vh;      
+    background-size: cover;      
+    background-position: center;     
+    background-repeat: no-repeat;     
+    background-attachment: fixed;
+    opacity: 0.2;
+    
+}
+
+.jumbotron-header {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-family: 'Yesteryear', cursive;
+    font-weight: 100;
+   /* font-size: 5em;*/
+    color: #e6b800;
+    top: 50%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+} 
+
+.jumbotron-text {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+   /* font-size: 1.5rem;*/
+    color: #e6b800;
+     top: 50%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+  
+.landing-image{
+     background-image: url("../images/landingpage/guitar.jpg");
+    width: 100%;      
+    height: 100vh;      
+    background-size: cover;      
+    background-position: center;     
+    background-repeat: no-repeat;     
+    background-attachment: scroll;
+    opacity: 0.7;
+}
+    
+
+
+/*--------------------------------------------Navigation bar*/
+.navbar{
+    padding: 0.5rem 0 0.5rem 1rem!important}
+    
+.p-4{
+    padding-top: 1.5rem!important;
+    padding-left: 1.5rem!important;
+    }
+
+.navbar-toggler{
+   border-color: #343a40!important;
+}
+
+.navbar-toggler-icon{
+    color: #e6b800;
+}
+
+#navbarToggleExternalContent{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.navbar-brand {
+    color: #e6b800!important;
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 1.3rem;*/
+    font-weight: 200;
+    transition: ease-in-out 0.4s;
+    }
+        
+a.navbar-brand:hover {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.menu-item {
+    padding-left: 15px;
+}
+
+/*--------------------------------------------Listen-page*/
+.container.listen-image {
+    padding: 0;
+    margin: 0;
+    
+}
+.listen-image {
+    background-color: #343a40;
+    width: 100%;
+    background-size: cover;      
+    background-position: center;     
+    background-repeat: no-repeat;     
+    background-attachment: scroll;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.bg-color-listen-text {
+    background-color: transparent;
+     display: inline-block;
+    text-align: center;
+}
+    
+.listen-header {
+    color: #e6b800;
+    padding-top: 56px;
+    padding-bottom: 1rem;
+   /* font-size: 2.5rem;*/
+    font-weight: 100;
+    font-stretch: expanded;
+   
+    
+}
+
+.fas.fa-headphones-alt {
+    padding-right: 0.5rem;
+}
+
+.card-columns: {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    }
+
+.card-deck .card {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card {
+        margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    color: #e6b800;
+    border: none;
+}
+
+.card-title {
+    text-align: center;
+    padding-top: 2rem;
+ 
+}
+
+.card-body {
+    text-align: center;
+}
+    
+.card-img-top {
+    width:100%;
+    text-align: center;
+    filter: grayscale(100%);
+    border-radius: .40rem;
+}
+
+.audio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*--------------------------------------------Watch-page*/
+
+.watch-image {
+    background-color: #4d4d4d;
+    width: 100%; 
+    background-size: cover;      
+    background-position: center;     
+    background-repeat: no-repeat;     
+    background-attachment: scroll;
+    padding-top: 2rem;
+    
+}
+
+.bg-color-watch-text {
+    background-color: transparent;
+     display: inline-block;
+    text-align: center;
+}
+    
+.watch-header {
+    color: #e6b800;
+    padding-top: 56px;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-stretch: expanded;
+   
+    
+}
+
+.fas.fa-video {
+    padding-right: 0.5rem;
+}
+
+.card.bg-basic {
+    background-color: #4d4d4d !important;
+}
+.video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.40rem;
+}
+
+/*--------------------------------------------About*/
+.about-image {
+    background-image: url("../images/the_monkees.jpg");
+    width: 100%;      
+    height: 100vh;      
+    background-size: cover;      
+    background-position: center;     
+    background-repeat: no-repeat;     
+    background-attachment: scroll;
+    opacity: 0.3;
+    
+}
+
+/*--------------------------------------------Media*/
+@media only screen and (min-width: 544px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .jumbotron-header {
+        text-align: left;
+        padding-left: 20vw;
+    }
+    .jumbotron-text {
+        text-align: left;
+        padding-left: 20vw;
+    } 
+    
+    .collapse navbar-collapse col-md-3 {
+        margin: 0;
+    }
+    
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+
+
