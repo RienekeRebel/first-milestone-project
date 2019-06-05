@@ -38,7 +38,7 @@
               <a class="navbar-brand" href="#watch"><i class="fas fa-video" aria-hidden="true"></i><span class="menu-item">Watch</span></a>
             </nav>
             <nav class="navbar navbar-dark bg-dark">
-              <a class="navbar-brand" href="#"><i class="fas fa-user" aria-hidden="true"></i><span class="menu-item">About us</span></a>
+              <a class="navbar-brand" href="#about"><i class="fas fa-user" aria-hidden="true"></i><span class="menu-item">About us</span></a>
             </nav>
             <nav class="navbar navbar-dark bg-dark">
               <a class="navbar-brand" href="#"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span class="menu-item">Book us</span></a>
@@ -103,8 +103,10 @@
   <!===watch-page======>
   <section>
     <div class="watch-image" id="watch">
-      <div class="row col-xs-12 col-md-4 bg-color-watch-text">
-        <h3 class="watch-header"><i class="fas fa-video" aria-hidden="true"></i>Watch</h3>
+      <div class="container-fluid">
+        <div class="row col-xs-12 col-md-4 bg-color-watch-text">
+          <h3 class="watch-header"><i class="fas fa-video" aria-hidden="true"></i>Watch</h3>
+        </div>
       </div>
       <div class="card-deck">
         <div class="card bg-basic">
@@ -124,18 +126,66 @@
         </div>
       </div>
     </div>
+  </section>  
 
 <!=====about us=====>
-  </section>
+  <section> 
     <div class="about-image" id="about">
-      <div class="row col-xs-12 col-md-4 bg-color-about-text">
-        <h3 class="about-header"><i class="fas fa-user" aria-hidden="true"></i>About</h3>
+      <div class="container-fluid">
+        <div class="row col-xs-12 col-md-4 bg-color-about-text">
+          <h3 class="about-header"><i class="fas fa-user" aria-hidden="true"></i>About</h3>
+        </div>
+        
+        <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/aboutpage/monkees.jpg" alt="band monkees" width="950" height="400">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/aboutpage/monkees1.jpg" alt="band monkees" width="950" height="400">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/aboutpage/monkees2.jpg" alt="band monkees" width="950" height="400">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+        
+      
+        <div class="row">
+          <div class="col-sm">1 of 4</div>
+          <div class="col-sm">2 of 4</div>
+          <div class="col-sm">3 of 4</div>
+          <div class="col-sm">4 of 4</div>
+        </div>
       </div>
-    </div>  
-  
-  <section>
-    
+      </div>
   </section>
+    
+  
 
   <footer></footer>
 

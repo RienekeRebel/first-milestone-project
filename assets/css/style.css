@@ -127,7 +127,7 @@ h4 {
 }
 
 .navbar-toggler-icon{
-    color: #e6b800;
+    color: #e6b800!important;
 }
 
 #navbarToggleExternalContent{
@@ -280,7 +280,7 @@ a.navbar-brand:hover {
 }
 
 /*--------------------------------------------About*/
-.about-image {
+.bg-about-image {
     background-image: url("../images/the_monkees.jpg");
     width: 100%;      
     height: 100vh;      
@@ -289,8 +289,43 @@ a.navbar-brand:hover {
     background-repeat: no-repeat;     
     background-attachment: scroll;
     opacity: 0.3;
+}
+.about-image {
+    background-color: #343a40;
+    width: 100%;
+    background-size: cover;      
+    background-position: center;     
+    background-repeat: no-repeat;     
+    background-attachment: scroll;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
     
 }
+
+.bg-color-about-text {
+    background-color: transparent;
+     display: inline-block;
+    text-align: center;
+}
+
+.about-header {
+    color: #e6b800;
+    padding-top: 56px;
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-stretch: expanded;
+}    
+
+.fas.fa-user {
+    padding-right: 0.5rem;
+}
+    
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+  }
 
 /*--------------------------------------------Media*/
 @media only screen and (min-width: 544px) {
